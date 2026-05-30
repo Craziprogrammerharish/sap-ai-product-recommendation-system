@@ -549,4 +549,3 @@ Root Files
 =======
 # sap-ai-product-recommendation-system
 AI-powered Product Recommendation System using FastAPI, FAISS, Semantic Search, Natural Language Processing, and Ollama Llama 3.2.
->>>>>>> 4507451e0f882b2bbf2e2a0488406dc621ca55f0

@@ -1,3 +1,120 @@
+# SAP AI Product Recommendation System
+
+An end-to-end AI-powered Product Similarity Search and Recommendation System built using FastAPI, FAISS, Semantic Search, Natural Language Processing, and Ollama Llama 3.2.
+
+## Author
+
+**Harish B**
+Machine Learning Engineer | Generative AI Engineer | Data Scientist
+
+---
+
+## Project Overview
+
+This project was developed as part of the SAP Machine Learning Engineer Technical Assessment.
+
+The solution provides:
+
+* Product Similarity Search
+* Semantic Search
+* Natural Language Query Processing
+* AI-Augmented Query Layer
+* FastAPI REST APIs
+* FAISS Vector Search Optimization
+* Docker Deployment
+* Enterprise Scaling Architecture
+
+---
+
+## Key Features
+
+### Product Similarity Search
+
+Find products similar to a given product using vector similarity search.
+
+### Semantic Search
+
+Search products using semantic similarity rather than exact keyword matching.
+
+### Natural Language Query Layer
+
+Search products using natural language.
+
+Example:
+
+* show me black shoes
+* find nike products
+* search for blue shirts
+
+### AI-Augmented Query Layer
+
+Powered by Ollama and Llama 3.2.
+
+Example:
+
+show me highly rated black nike shoes
+
+Workflow:
+
+User Query
+↓
+Llama 3.2
+↓
+Intent Understanding
+↓
+Semantic Search
+↓
+Product Retrieval
+
+---
+
+## Technology Stack
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* FastAPI
+* FAISS
+* Docker
+* Ollama
+* Llama 3.2
+
+---
+
+## Available APIs
+
+* GET /find_similar_products
+* GET /semantic_search
+* GET /nl_query
+* GET /ai_query
+
+---
+
+## Documentation
+
+* HLD.md
+* LLD.md
+* SCALING.md
+
+---
+
+## Enterprise Features
+
+* Semantic Search
+* Natural Language Queries
+* AI-Augmented Search
+* Docker Deployment
+* Enterprise Scaling Strategy
+* Kubernetes Ready Architecture
+
+---
+
+## Repository
+
+Developed and maintained by **Harish B**
+
+SAP Machine Learning Engineer Technical Assessment Submission
 
 # sap-cxii-tech-ex-01
 Technical Exercise for SAP. 
